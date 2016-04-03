@@ -11,3 +11,7 @@ It helps keep track of changes. It helps to keep local workspace separate from t
 
 How can you use the staging area to make sure you have one commit per logical change?
 With staging area, we can add only the required files for a logical change. When the logical change is completed, it can be committed as one change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Experimental changes or bug fixes for a specific client need not pollute the main branch.
+In these situations a branch can safely let people change without affecting the main branch. When the changes are working and useful, it could be merged back to the master if required.
