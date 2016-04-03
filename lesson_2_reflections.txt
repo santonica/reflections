@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates all the infrastructure required to mark this folder as a repository and initializes the state of the folder and tracking.
+This is way to ask git to start tracking this directory.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is an intermediate space to store your code before an actual commit is performed.
+It helps keep track of changes. It helps to keep local workspace separate from the staging area.
