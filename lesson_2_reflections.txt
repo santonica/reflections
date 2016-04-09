@@ -19,3 +19,11 @@ In these situations a branch can safely let people change without affecting the 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Non conflicting changes from each branch will be added to the final result. Conflicting changes will be marked to be resolved. 
 Visualizing in a diagram helps to understand better how the changes came about.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros
+ 1. Non conflicting changes are automatically merged and improves productivity
+cons
+ 1. You need to understand code more to merge it properly. 
+ 
+
