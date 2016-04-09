@@ -15,3 +15,7 @@ With staging area, we can add only the required files for a logical change. When
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Experimental changes or bug fixes for a specific client need not pollute the main branch.
 In these situations a branch can safely let people change without affecting the main branch. When the changes are working and useful, it could be merged back to the master if required.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Non conflicting changes from each branch will be added to the final result. Conflicting changes will be marked to be resolved. 
+Visualizing in a diagram helps to understand better how the changes came about.
