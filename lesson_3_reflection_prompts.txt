@@ -1,2 +1,22 @@
 When would you want to use a remote repository rather than keeping all your work local?
 This will allow publishing your work as well as creating a remote backup of your work.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+ 	forks: 
+ 	These are a GitHub specific feature. It enables to create a copy of a repository on GitHub. I would use it to add custom changes to a repository without changing the master.
+
+ 	clones: 
+ 	These allow you to create a local copy of the repository in Git. I would use this to edit a repository locally.
+ 	
+ 	branches: 
+ 	These allow you to work on a specific objective without affecting the master repository.
+ 	I will use this for a bug fix or a completely new development based on the master.
+
+
+
+
